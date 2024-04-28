@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ediblefoods:block/uranium_ore",
+    "up": "ediblefoods:block/uranium_ore",
+    "north": "ediblefoods:block/uranium_ore",
+    "east": "ediblefoods:block/uranium_ore",
+    "south": "ediblefoods:block/uranium_ore",
+    "west": "ediblefoods:block/uranium_ore",
+    "particle": "ediblefoods:block/uranium_ore"
+  },
+  "render_type": "solid"
+}

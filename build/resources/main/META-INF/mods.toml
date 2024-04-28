@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="ediblefoods"
+version="1.0.0"
+displayName="Very Edible Foods"
+displayURL="https://mcreator.net"
+credits="Made with MCreator"
+authors="StatusZer0"
+description="A mod filled with very safe and edible food items! None of them have any bad parts to them!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ediblefoods]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

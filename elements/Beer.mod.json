@@ -1,0 +1,21 @@
+{
+  "_fv": 60,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Bottle of Beer",
+    "splashName": "Splashing Beer",
+    "lingeringName": "Lasting Beer",
+    "arrowName": "Beer-infused Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Drunk"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
