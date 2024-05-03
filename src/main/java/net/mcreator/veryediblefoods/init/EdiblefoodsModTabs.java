@@ -21,5 +21,8 @@ public class EdiblefoodsModTabs {
 				tabData.accept(EdiblefoodsModItems.URANIUM.get());
 				tabData.accept(EdiblefoodsModItems.SUGAR_COOKIE.get());
 				tabData.accept(EdiblefoodsModBlocks.URANIUM_ORE.get().asItem());
+				tabData.accept(EdiblefoodsModItems.CAN.get());
+				tabData.accept(EdiblefoodsModItems.BEANS.get());
+				tabData.accept(EdiblefoodsModBlocks.FOOD_PROCESSOR.get().asItem());
 			}).withSearchBar().build());
 }

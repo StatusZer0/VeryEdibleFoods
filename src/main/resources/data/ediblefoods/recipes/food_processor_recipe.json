@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:piston"
+    },
+    "c": {
+      "tag": "minecraft:planks"
+    },
+    "d": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "ediblefoods:food_processor",
+    "count": 1
+  }
+}

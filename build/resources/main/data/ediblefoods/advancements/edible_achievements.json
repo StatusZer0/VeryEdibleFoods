@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "ediblefoods:uranium"
+    },
+    "title": {
+      "translate": "advancements.edible_achievements.title"
+    },
+    "description": {
+      "translate": "advancements.edible_achievements.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "edible_achievements_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

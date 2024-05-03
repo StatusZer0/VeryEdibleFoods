@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ediblefoods:block/food_processor_bottom",
+    "up": "ediblefoods:block/food_processor_top",
+    "north": "ediblefoods:block/food_processor_side",
+    "east": "ediblefoods:block/food_processor_side",
+    "south": "ediblefoods:block/food_processor_side",
+    "west": "ediblefoods:block/food_processor_side",
+    "particle": "ediblefoods:block/food_processor_bottom"
+  },
+  "render_type": "solid"
+}

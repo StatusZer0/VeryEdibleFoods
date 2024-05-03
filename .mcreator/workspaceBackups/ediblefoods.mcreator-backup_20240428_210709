@@ -1,0 +1,387 @@
+{
+  "mod_elements": [
+    {
+      "name": "UraniumEaten",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_eaten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/procedures/UraniumEatenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/item/UraniumItem.java",
+          "src/main/resources/assets/ediblefoods/models/item/uranium.json"
+        ]
+      }
+    },
+    {
+      "name": "VeryEdibleFoods",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_edible_foods",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SugarCookieEaten",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_cookie_eaten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/procedures/SugarCookieEatenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SugarCookie",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_cookie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/item/SugarCookieItem.java",
+          "src/main/resources/assets/ediblefoods/models/item/sugar_cookie.json"
+        ]
+      }
+    },
+    {
+      "name": "DrunkTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drunk_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/procedures/DrunkTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drunk",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/potion/DrunkMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BeerDrunken",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_drunken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/procedures/BeerDrunkenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beer",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/block/UraniumOreBlock.java",
+          "src/main/resources/data/ediblefoods/loot_tables/blocks/uranium_ore.json",
+          "src/main/resources/assets/ediblefoods/models/item/uranium_ore.json",
+          "src/main/resources/assets/ediblefoods/models/block/uranium_ore.json",
+          "src/main/resources/assets/ediblefoods/blockstates/uranium_ore.json",
+          "src/main/resources/data/ediblefoods/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/resources/data/ediblefoods/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/data/ediblefoods/worldgen/placed_feature/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SugarCookieRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_cookie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ediblefoods/recipes/sugar_cookie_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeerRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/recipes/brewing/BeerRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Can",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/item/CanItem.java",
+          "src/main/resources/assets/ediblefoods/models/item/can.json"
+        ]
+      }
+    },
+    {
+      "name": "Beans",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beans",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/item/BeansItem.java",
+          "src/main/resources/assets/ediblefoods/models/item/beans.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcessFood",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "process_food",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/procedures/ProcessFoodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcessorGUI",
+      "type": "gui",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/client/gui/ProcessorGUIScreen.java",
+          "src/main/java/net/mcreator/veryediblefoods/world/inventory/ProcessorGUIMenu.java",
+          "src/main/java/net/mcreator/veryediblefoods/network/ProcessorGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CanRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ediblefoods/recipes/can_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FoodProcessorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_processor_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veryediblefoods/procedures/FoodProcessorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FoodProcessor",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_processor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ediblefoods/loot_tables/blocks/food_processor.json",
+          "src/main/resources/assets/ediblefoods/models/item/food_processor.json",
+          "src/main/java/net/mcreator/veryediblefoods/block/FoodProcessorBlock.java",
+          "src/main/resources/assets/ediblefoods/blockstates/food_processor.json",
+          "src/main/resources/assets/ediblefoods/models/block/food_processor.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:UraniumOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:UraniumOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item_group.very_edible_foods.very_edible_foods": "Very Edible Foods",
+      "item.ediblefoods.uranium": "Uranium",
+      "item.ediblefoods.beans": "Can of Beans",
+      "effect.ediblefoods.drunk": "Drunk",
+      "block.ediblefoods.food_processor": "Food Processor",
+      "item.minecraft.tipped_arrow.effect.beer": "Beer-infused Arrow",
+      "item.ediblefoods.sugar_cookie": "Sugar Cookie",
+      "block.ediblefoods.uranium_ore": "Uranium Ore",
+      "gui.ediblefoods.processor_gui.button_process": "Process",
+      "item.minecraft.potion.effect.beer": "Bottle of Beer",
+      "item.ediblefoods.can": "Can",
+      "item.minecraft.splash_potion.effect.beer": "Splashing Beer",
+      "item_group.ediblefoods.very_edible_foods": "Very Edible Foods",
+      "item.minecraft.lingering_potion.effect.beer": "Lasting Beer",
+      "item.very_edible_foods.uranium": "Uranium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ediblefoods",
+    "modName": "Very Edible Foods",
+    "version": "1.0.0",
+    "description": "A mod filled with very safe and edible food items! None of them have any bad parts to them!",
+    "author": "StatusZer0",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made with MCreator",
+    "modElementsPackage": "net.mcreator.veryediblefoods"
+  },
+  "mcreatorVersion": 202400117319
+}

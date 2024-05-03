@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ediblefoods:block/food_processor"
+    }
+  }
+}

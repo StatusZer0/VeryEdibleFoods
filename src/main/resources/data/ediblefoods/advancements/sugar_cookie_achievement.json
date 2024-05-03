@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "ediblefoods:sugar_cookie"
+    },
+    "title": {
+      "translate": "advancements.sugar_cookie_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.sugar_cookie_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sugar_cookie_achievement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ediblefoods:sugar_cookie"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "ediblefoods:edible_achievements"
+}

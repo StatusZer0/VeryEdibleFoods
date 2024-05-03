@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ediblefoods:beans"
+    },
+    "title": {
+      "translate": "advancements.drunk_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.drunk_achievement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drunk_achievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ediblefoods:beans"
+            ],
+            "count": {
+              "min": 64,
+              "max": 99999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ediblefoods:edible_achievements"
+}

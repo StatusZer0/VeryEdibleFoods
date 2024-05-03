@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.veryediblefoods.init.EdiblefoodsModTabs;
 import net.mcreator.veryediblefoods.init.EdiblefoodsModPotions;
 import net.mcreator.veryediblefoods.init.EdiblefoodsModMobEffects;
+import net.mcreator.veryediblefoods.init.EdiblefoodsModMenus;
 import net.mcreator.veryediblefoods.init.EdiblefoodsModItems;
 import net.mcreator.veryediblefoods.init.EdiblefoodsModBlocks;
 
@@ -52,6 +53,7 @@ public class EdiblefoodsMod {
 		EdiblefoodsModMobEffects.REGISTRY.register(bus);
 		EdiblefoodsModPotions.REGISTRY.register(bus);
 
+		EdiblefoodsModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
